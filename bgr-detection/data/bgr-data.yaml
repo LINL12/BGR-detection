@@ -1,0 +1,19 @@
+# ├── BGR-detection
+#   └── dataset
+#     └── image/train
+#     └── label/train
+
+
+
+path: /data0/linhao/BGR-detection/dataset # dataset root dir
+train: image/train
+test:  image/test
+label: label/train
+val: #
+
+
+# Classes
+names:
+  0: BGR
+  1: RGB
+
